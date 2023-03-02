@@ -1,0 +1,31 @@
+{
+   "@@locale": "fr",
+    "bmi": "IMC",
+   "underweight": "maigreur",
+   "overweight": "Obésité",
+   "normal": "Corpulence normale",
+   "size": "Taille",
+   "weight": "Poids",
+   "calculate": "Calculer",
+   "man": "Homme",
+   "woman": "Femme",
+   "result": "Résultat",
+   "result_size": "{value} cm",
+   "@result_size": {
+      "placeholders": {
+        "value": {
+          "type": "num",
+          "format": "compact"
+        }
+      }
+   },
+   "result_weight": "{value} kg",
+    "@result_weight": {
+       "placeholders": {
+         "value": {
+           "type": "num",
+           "format": "compact"
+         }
+       }
+    }
+}

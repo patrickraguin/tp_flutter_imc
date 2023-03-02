@@ -1,0 +1,31 @@
+{
+   "@@locale": "en",
+    "bmi": "BMI",
+   "underweight": "Underweight",
+   "overweight": "Overweight",
+   "normal": "Normal body size",
+   "size": "Size",
+   "weight": "Weight",
+   "calculate": "Calculate",
+   "man": "Man",
+   "woman": "Woman",
+   "result": "Result",
+   "result_size": "{value} cm",
+      "@result_size": {
+         "placeholders": {
+           "value": {
+             "type": "num",
+             "format": "compact"
+           }
+         }
+      },
+      "result_weight": "{value} kg",
+       "@result_weight": {
+          "placeholders": {
+            "value": {
+              "type": "num",
+              "format": "compact"
+            }
+          }
+       }
+}

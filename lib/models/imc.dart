@@ -2,6 +2,8 @@ import 'dart:math';
 
 enum Sex { man, woman }
 
+enum ImcValue { underweight, overweight, normal }
+
 class Imc {
   Sex sex;
   int size;
@@ -9,14 +11,14 @@ class Imc {
 
   Imc({required this.sex, required this.size, required this.weight});
 
-  String get calc {
+  ImcValue get calc {
     final double value = weight / pow(size.toDouble() / 100, 2);
     if (value < 18.5) {
-      return 'Maigreur';
+      return ImcValue.underweight;
     } else if (value > 30) {
-      return 'Obésité';
+      return ImcValue.overweight;
     } else {
-      return 'Corpulence normale';
+      return ImcValue.normal;
     }
   }
 }
